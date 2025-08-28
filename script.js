@@ -197,4 +197,15 @@ function animateCounter(element, start, end, suffix, duration) {
     }, 16);
 }
 
+function handleSubmit() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    if (name && email && phone) {
+        alert('Form submitted successfully! Name: ' + name + ', Email: ' + email + ', Phone: ' + phone);
+    } else {
+        alert('Please fill out all fields.');
+    }
+}
+
 // 
