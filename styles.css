@@ -1080,3 +1080,15 @@ body {
    background: linear-gradient(to right,#0A2A43,#1BAA8A);
     transform: translateY(-2px) scale(1.05);
 }
+
+  .call-link {
+    color: #a29f9f; /* Change text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it bold (optional) */
+  }
+
+  .call-link:hover {
+    color: #1d3557; /* Different color on hover */
+    text-decoration: underline; /* Show underline on hover (optional) */
+
+  }
