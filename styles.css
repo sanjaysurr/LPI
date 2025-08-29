@@ -25,6 +25,18 @@ body {
     --dark-slate: #2C3E50;
 }
 
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between logo and text */
+}
+
+.nav-brand .logo {
+  height: 70px; /* adjust size */
+  width: 100px;
+}
+
 /* Utility Classes */
 .container {
     max-width: 1200px;
